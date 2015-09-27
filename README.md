@@ -3,6 +3,14 @@ A library written in go to manipulate a harddrive.
 I added also a wrapper to create luks or lvm container.
 You cann create a lvm container in a luks Encrypted container or visa versa.
 
+# Install
+0. go get github.com/FloydZ/hddgo
+0. go get github.com/pivotal-golang/bytefmt
+0. go get github.com/c9s/goprocinfo/linux
+0. go get github.com/op/go-logging
+
+# Examples
+You´ll find some examples in [hddmain](hddmain.go) 
 
 
 # Important Structs
